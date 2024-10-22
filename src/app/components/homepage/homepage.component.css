@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+  text-decoration: none;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background: url(https://img.freepik.com/premium-photo/three-colorful-cassette-tapes-arranged-diagonally-pastel-background_14117-1073526.jpg?w=900) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89.5vh;
+  text-align: center;
+}
+
+.container  h2{
+  font-size: 3rem;
+  color:var(--white);
+}
+
+.container p{
+  font-size: 1.8rem;
+  color:var(--light-white);
+  padding:1rem 0;
+  line-height: 1.5;
+}
